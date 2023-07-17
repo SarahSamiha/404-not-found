@@ -1,0 +1,64 @@
+.core {
+    display: flex;
+    margin: 150px 200px;
+    gap: 20px;
+}
+
+.column {
+    /* border: 2px solid tomato; */
+    width: 50%;
+}
+
+img {
+    width: 100%;
+
+}
+
+.content-header {
+    color: #333;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.content-description {
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+button {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+}
+
+h3 {
+    color: #333;
+    font-family: Inconsolata;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer {
+    color: #BDBDBD;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    .core{
+        flex-direction: column;
+        margin: 50px 30px;
+        justify-content: center;
+    }
+    .column{
+        width: 100%;
+    }
+    
+}
